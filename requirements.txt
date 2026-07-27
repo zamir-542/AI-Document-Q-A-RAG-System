@@ -1,0 +1,8 @@
+pypdf==6.14.2
+sentence-transformers==5.6.1
+chromadb==1.5.9
+python-dotenv==1.2.2
+google-genai==2.14.0
+
+# torch is pulled in by sentence-transformers. On Windows the default PyPI wheel
+# is CPU-only, which is what we want — do not install a CUDA build for this project.

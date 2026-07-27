@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Virtualenv
+venv/
+.venv/
+
+# Vector store (rebuildable from a source PDF)
+vectordb/
+
+# Source documents (may be personal / copyrighted)
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
